@@ -1,0 +1,18 @@
+{
+  "name": "acasino",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "mongo": "^0.1.0",
+    "mongodb": "^3.6.1",
+    "mongoose": "^5.10.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
