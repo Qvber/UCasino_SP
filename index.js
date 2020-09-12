@@ -32,6 +32,7 @@ client.on('message', async message => {
 		var summ = args[0];
 		var username = message.author.id;
 		let slots = await doSlot(username,summ);
+		if (!slots) return 
 		let msg = await message.reply(new Discord.MessageEmbed()
 			.setColor('#e74c3c')
 			.setTitle(`                | <a:anime:754015602640683181> | <a:anime:754015602640683181> | <a:anime:754015602640683181> |`)

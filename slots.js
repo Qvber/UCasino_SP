@@ -18,6 +18,13 @@ module.exports.slotsChance = [
 ]
 
 module.exports.doSlot = async function (username, summ) {
+    if (await getMoney(username) < summ)
+        return -2;
+    else if (summ > 300)
+        return -3;
+    else if (summ < 0)
+        return -4;
+
     // removeMoney()
     let slots = [Random(module.exports.slotsChance), Random(module.exports.slotsChance), Random(module.exports.slotsChance)]
     console.log(slots)
