@@ -36,4 +36,4 @@
 
 ## Идеи, предложения и тех-поддержка:
 
- - По данной ссылке [I'm an inline-style link with title](https://www.google.com "ТЫК")
+ - По данной ссылке: [ТЫК](https://tawk.to/chat/5f7356584704467e89f343fe/default)
