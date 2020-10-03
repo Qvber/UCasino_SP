@@ -35,3 +35,5 @@
  - итд.
 
 ## Идеи, предложения и тех-поддержка:
+
+ - По данной ссылке [I'm an inline-style link with title](https://www.google.com "ТЫК")
